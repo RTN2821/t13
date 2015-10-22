@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Tienda</title>
+    <link rel="stylesheet" href="styles/layout.css">
+  </head>
+  <body>
+    <h1>Tienda</h1>
+    <input type="button" id="manzana"  value="Una_Manzana" onclick="addRowsManzana();">
+    <input type="button" id="leche" value="Una_Leche" onclick="addRowsLeche();">
+    <h2>Carrito</h2>
+
+    <table>
+      <thead>
+        <tr>
+          <th>Producto</th>
+          <th>Presio</th>
+        </tr>
+
+      </thead>
+      <tbody id="carrito">
+
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>Total:</td>
+          <td id="total">0.00</td>
+        </tr>
+
+      </tfoot>
+    </table>
+
+
+
+
+    <script  src="js/prog.js"></script>
+  </body>
+</html>
